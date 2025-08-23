@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywire-eel"
+version = "0.1.0"
+description = "PyWire is a lightweight Python library that allows you to create simple desktop GUI applications using HTML, CSS, and JavaScript, while giving full access to Python’s functionality and libraries."
+authors = [
+    { name = "Fadi002"}
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
