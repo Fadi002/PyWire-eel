@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pywire/__init__.py
+pywire/bridge.py
+pywire/browser.py
+pywire/security.py
+pywire/server.py
+pywire/utils.py
+pywire/web/bridge.js
+pywire_eel.egg-info/PKG-INFO
+pywire_eel.egg-info/SOURCES.txt
+pywire_eel.egg-info/dependency_links.txt
+pywire_eel.egg-info/top_level.txt
