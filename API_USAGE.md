@@ -246,13 +246,13 @@ print(f"Browser Version: {info.get("version")}")
 
 ## JavaScript Integration 🌐
 
-PyWire injects a `pywire.js` bridge file into your web pages. You **must** include this script in your HTML files for communication to work:
+PyWire injects a `bridge.js` bridge file into your web pages. You **must** include this script in your HTML files for communication to work:
 
 ```html
-<script type="text/javascript" src="/pywire.js"></script>
+<script type="text/javascript" src="/bridge.js"></script>
 ```
 
-After including `pywire.js`, you can call exposed Python functions directly:
+After including `bridge.js`, you can call exposed Python functions directly:
 
 ```javascript
 // Call an exposed Python function 'my_python_function'
